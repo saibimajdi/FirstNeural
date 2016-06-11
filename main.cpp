@@ -324,10 +324,7 @@ void Net::feedForward(const vector<double> &inputVals)
 
 int main()
 {
-	TrainingData trainData("trainsample/out_xor.txt");
-    // TrainingData trainData("trainsample/out_and.txt");
-    // TrainingData trainData("trainsample/out_or.txt");
-    // TrainingData trainData("trainsample/out_no.txt");
+	TrainingData trainData("out_xor.txt");
 
     // e.g., { 3, 2, 1 }
     std::vector<unsigned> topology;
